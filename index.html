@@ -3773,12 +3773,6 @@
     }
   })();
 
-  // Fallback offline (se o servidor não estiver disponível)
-  const _OFFLINE_PW = 'horizonte2026'; // mantido como backup
-  function _offlineMode() {
-    console.warn('API indisponível — modo offline ativo');
-  }
-
   function openLogin() {
     document.getElementById('loginModal').classList.add('open');
     document.getElementById('loginPassword').value = '';
